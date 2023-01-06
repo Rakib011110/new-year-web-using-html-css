@@ -10,7 +10,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  background-image: url(/images/banner/banner3.png);
+  background-image: url("/images/banner/banner3.png");
   background-repeat: no-repeat;
 }
 
