@@ -3,29 +3,28 @@
 }
 
 .header-img {
-  height: 708px;
+  height: 808px;
 
   margin: 0 auto;
 
   background-position: center;
   background-size: cover;
   position: relative;
-  background-image: url("../images/banner/cover-4.jpg");
+  background-image: url("../images/banner/banner3.png");
   background-repeat: no-repeat;
 }
 
 .header-text {
-  text-align: center;
+  text-align: end;
   position: absolute;
-  top: 40%;
-  left: 25%;
+  top: 45%;
+  left: 75%;
   transform: translate(-50%, -50%);
   color: white;
 }
 
 .header-title {
   font-weight: 700px;
-  width: 525px;
   left: 845px;
   margin-bottom: 20px;
   font-size: 50px;
@@ -34,7 +33,7 @@
 
 .header-info {
   height: 160px;
-  width: 494px;
+  /* width: 494px; */
   left: 876px;
   top: 468px;
   font-size: 30px;
@@ -110,7 +109,7 @@
 }
 .plan-inf {
   background-color: orange;
-  padding: 20px;
+  padding: 15px;
   border-radius: 20px;
   color: aliceblue;
 }
