@@ -60,6 +60,8 @@
   color: black;
 }
 
+/*      Failure section          */
+
 .failure-section {
   display: flex;
   align-items: center;
@@ -90,10 +92,12 @@
 }
 
 .failure-info {
-  height: 170px;
+  height: 100px;
   width: 700px;
   left: 862px;
   top: 1416px;
+  font-size: 25px;
+
   border-radius: 0px;
   color: rgb(97, 93, 93);
   font-family: "Franklin Gothic Medium", "Arial Narrow";
