@@ -10,7 +10,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  background-image: url(../images/banner/cover-4.jpg);
+  background-image: url("../images/banner/cover-4.jpg");
   background-repeat: no-repeat;
 }
 
@@ -29,15 +29,16 @@
   left: 845px;
   margin-bottom: 20px;
   font-size: 50px;
+  color: black;
 }
 
 .header-info {
-  height: 78px;
+  height: 160px;
   width: 494px;
   left: 876px;
   top: 468px;
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 30px;
+  margin-bottom: 20px;
 
   border-radius: nullpx;
 }
@@ -48,8 +49,16 @@
   width: 160px;
   left: 1210px;
   top: 578px;
+  font-weight: 900;
+  font-size: 20px;
+  color: aliceblue;
   border-radius: 5px;
 }
+.btn-primary:hover {
+  background-color: rgb(242, 200, 121);
+  color: black;
+}
+
 .failure-section {
   display: flex;
   align-items: center;
@@ -59,22 +68,30 @@
   padding: 20px;
 }
 
+.failure-img {
+  background-color: orange;
+  border-radius: 200px;
+  padding: 10px;
+  box-shadow: 5px 3px 4px wheat;
+}
+
 .failure-header {
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 20px;
-  height: 200px;
-  width: 500px;
+  height: 170px;
+  width: 600px;
 }
 .failure-discription {
   border-radius: nullpx;
 }
 
 .failure-info {
-  height: 200px;
-  width: 500px;
+  height: 170px;
+  width: 700px;
   left: 862px;
   top: 1416px;
   border-radius: 0px;
+  color: rgb(97, 93, 93);
 }
 
 .fa-solid {
@@ -89,24 +106,35 @@
 
 .plan-title {
   text-align: center;
+  margin-top: 300px;
+}
+.plan-inf {
+  background-color: orange;
+  padding: 20px;
+  border-radius: 20px;
+  color: aliceblue;
 }
 
 .our-plan {
   display: flex;
-  justify-content: space-evenly;
-  margin: 100px;
+  margin: 80px;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
 }
 
 .plan-img {
   align-items: center;
-  margin: 20px;
 }
 
 /*  call noew */
 
 .call-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/watch.png");
+  background-image: linear-gradient(
+      rgba(218, 216, 127, 0.553),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/watch.png");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
